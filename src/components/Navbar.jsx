@@ -38,7 +38,9 @@ export function Navbar() {
             </li>
           </ul>
         </div>
-        <span className="nav-link">🛒 Total: ${total.toLocaleString('es-ES')}</span>
+        <span className="nav-link total-navbar">
+          🛒 Total: ${total.toLocaleString("es-CL")}
+        </span>
       </div>
     </nav>
   );

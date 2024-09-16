@@ -31,6 +31,11 @@ body {
   color: white !important;
 }
 
+.total-navbar {
+  color: #499fc0;
+  cursor: pointer;
+}
+
 #headerSection {
   background-image: url("../img/header_pizzeria.jpg");
   background-repeat: no-repeat;
@@ -51,4 +56,16 @@ body {
 .footer-personalized {
   background-color: #222529;
   color: #c8cacd;
+}
+
+.section-card {
+  border: 2px solid #fdf2d0;
+}
+.ingredients-class {
+  font-size: 13px;
+}
+
+.button-card {
+  display: flex;
+  justify-content: space-between;
 }
